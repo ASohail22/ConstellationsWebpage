@@ -1,0 +1,59 @@
+h1{
+    background-color: rgb(22, 4, 70);
+    color: white;
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 70px;
+}
+body{
+    background-color: black;
+   /* background-image: url("https://s3.discoverhealing.com/wp-content/uploads/2018/12/home-starry-background.jpg");
+    background-size: cover;*/
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.container img{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    margin: 0 auto;
+    border: 20px solid rgb(22, 4, 70);
+    text-align: center;
+    display:block;
+    
+
+}
+.container img:hover{
+    cursor: pointer;
+    border: 20px solid white;
+    transition: all 0.2 ease-in-out;
+    
+}
+figcaption{
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+.tabcontent{
+    color: white;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 70px;
+    
+}
+
+
+    
+
+
